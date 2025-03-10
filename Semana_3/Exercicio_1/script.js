@@ -2,7 +2,7 @@ var array = [];
 
 document.getElementById("botao").addEventListener("click", () => {
     const conteudo = document.getElementById("conteudo").value;
-   
+
     array.push(conteudo);
 
     array.sort();
